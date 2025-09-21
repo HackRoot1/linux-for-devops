@@ -9,6 +9,11 @@ This document organizes and explains a wide range of Linux commands, grouped by 
 
 Commands for navigating, creating, and manipulating files and directories.
 
+### Install vim: if not install already then install vim package.
+```bash
+apt install vim
+```
+
 | Command | Description | Example |
 |------|--------------|--------|
 | `cd` | Change directory | `cd /home/user` |
@@ -43,6 +48,11 @@ Commands for navigating, creating, and manipulating files and directories.
 ## ✅ Disk Usage and Storage
 
 Commands to check and manage disk space and usage.
+
+### Install vim: if not install already then install vim package.
+```bash
+apt install zip
+```
 
 | Command | Description | Example |
 |------|--------------|--------|
@@ -125,6 +135,18 @@ Commands to access or transfer files over a network.
 ## ✅ Networking Commands
 
 Commands for testing and managing networks.
+
+### Installing ping: The ping utility is typically part of the iputils-ping package. To install it on Ubuntu, execute the following commands in a terminal:
+```bash
+sudo apt update
+sudo apt install iputils-ping -y
+```
+
+### Installing netstat: The netstat utility is part of the net-tools package. To install it on Ubuntu, execute the following commands in a terminal:
+```
+sudo apt update
+sudo apt install net-tools -y
+``` 
 
 | Command | Description | Example |
 |------|--------------|--------|
