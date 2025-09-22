@@ -49,7 +49,7 @@ apt install vim
 
 Commands to check and manage disk space and usage.
 
-### Install vim: if not install already then install vim package.
+### Install zip: if not install already then install zip package.
 ```bash
 apt install zip
 ```
