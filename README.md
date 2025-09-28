@@ -146,6 +146,7 @@ sudo apt install iputils-ping -y
 ```
 sudo apt update
 sudo apt install net-tools -y
+sudo apt-get install traceroute
 ``` 
 
 | Command | Description | Example |
